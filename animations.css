@@ -41,9 +41,6 @@ input:focus {
         transform: translateX(0%);
     }
 }
-table {
-    animation: slide-in 1s;
-}
 
 /* 2 */
 @keyframes bounce {
@@ -53,9 +50,6 @@ table {
     100% {
         transform: translateY(-2px);
     }
-}
-input[type=submit] {
-    animation: bounce 0.3s alternate infinite cubic-bezier(.2, .65, .6, 1);
 }
 
 /* 3 */
@@ -68,7 +62,4 @@ input[type=submit] {
         transform: rotate(0deg) translateY(0%);
         opacity: 1;
     }
-}
-h2 {
-    animation: drop-in 1s;
 }
